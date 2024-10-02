@@ -13,7 +13,7 @@ public class UserModel {
     private String username;
     private String password;
 
-    @Column(name = "created_at")
+    @Column(name = "created_att")
     private Timestamp createdAt;
 
     @Column(name = "updated_at")
