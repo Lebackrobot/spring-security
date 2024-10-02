@@ -12,7 +12,11 @@ public class MessageController {
     @GetMapping
     public ResponseEntity<String> getMessage() {
         try {
+<<<<<<< HEAD
             return ResponseEntity.status(200).body("Private messages.");
+=======
+            return ResponseEntity.status(200).body("Private message.");
+>>>>>>> origin/main
         }
 
         catch (Exception error) {
