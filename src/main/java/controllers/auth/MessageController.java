@@ -12,7 +12,7 @@ public class MessageController {
     @GetMapping
     public ResponseEntity<String> getMessage() {
         try {
-            return ResponseEntity.status(200).body("Private message.");
+            return ResponseEntity.status(200).body("Private messages.");
         }
 
         catch (Exception error) {
